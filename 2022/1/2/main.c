@@ -20,7 +20,7 @@ main(void)
         } else {
             int temp1 = 0;
             int temp2 = 0;
-            for(int i = 0; i < 2; i++)
+            for(int i = 0; i < 3; i++)
             {
                 if(cals > top_3_cals[i])
                 {
