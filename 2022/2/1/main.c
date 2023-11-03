@@ -9,7 +9,7 @@ main(void)
     FILE* fp;
     int tot = 0;
 
-    fp = fopen("../input2.txt", "r");
+    fp = fopen("../input.txt", "r");
 
     while(fgets(buf, sizeof(buf), fp) != NULL)
     {

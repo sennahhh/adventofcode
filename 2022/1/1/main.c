@@ -10,7 +10,7 @@ main(void)
     int most_cals = 0;
     char buf[1024];
 
-    fp = fopen("../input1.txt", "r");
+    fp = fopen("../input.txt", "r");
 
     while(fgets(buf, sizeof(buf), fp))
     {

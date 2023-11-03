@@ -9,7 +9,7 @@ main(void)
     char buf[1024];
     int tot = 0;
 
-    fp = fopen("../input3.txt", "r");
+    fp = fopen("../input.txt", "r");
 
     while(fgets(buf, sizeof(buf), fp) != NULL)
     {   
