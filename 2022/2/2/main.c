@@ -17,13 +17,13 @@ main(void)
         {
             if(buf[2] == 'X')
             {
-                tot += 1 + 3;
+                tot += 3;
             } else if(buf[2] == 'Y') 
             {
-                tot += 2 + 6;
+                tot += 1 + 3;
             } else 
             {
-                tot += 3;
+                tot += 2 + 6;
             }
         } else if (buf[0] == 'B')
         {
@@ -41,16 +41,18 @@ main(void)
         {
             if(buf[2] == 'X')
             {
-                tot += 1 + 6;
+                tot += 2;
             } else if(buf[2] == 'Y') 
             {
-                tot += 2;
+                tot += 3 + 3;
             } else 
             {
-                tot += 3 + 3;
+                tot += 1 + 6;
             }
         }
     }
+
+    fclose(fp);
 
     printf("%d\n", tot);
 
