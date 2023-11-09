@@ -56,10 +56,8 @@ main(void)
             }
         }
 
-        printf("%d-%d, %d-%d\n", intervals[0], intervals[1], intervals[2], intervals[3]);
-        if(intervals[1] >= intervals[2])
+        if((intervals[1] >= intervals[2] && intervals[0] <= intervals[3]) || (intervals[3] >= intervals[0] && intervals[2] <= intervals[1]))
         {
-            printf("true\n");
             tot++;
         }
     }
