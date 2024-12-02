@@ -61,3 +61,5 @@ dkms.conf
 # Vscode
 *.vscode
 
+# adventofcode
+input
